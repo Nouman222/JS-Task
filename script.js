@@ -310,7 +310,7 @@
 // ] 
 // };
 
-console.log(shoppingList.fruits[0].price)
+// console.log(shoppingList.fruits[0].price)
 
 // Task 8
 //  Change the time of the second class (English) to "10:00 AM". 
@@ -566,5 +566,82 @@ console.log(shoppingList.fruits[0].price)
 // }
 
 
+// -------------------------------------
+// Loops
+// 🔁 Task 1: for Loop
+// Task:
+// Print numbers from 1 to 10 using a for loop.
+// Expected Output:
+// 1
+// 2
+// 3
+// ...
+// 10
+// for(let i =1;i<11;i++){
+//     console.log(i)
+// }
+// Print only even numbers from 1 to 20
+// for(let i =1;i<21;i++){
+//     if(i %2 == 0){
+//         console.log(i+" Even Number")
+//     }
+// }
+
+// 🔄 Task 2: while Loop
+// Task:
+// Print the table of 5 (5 × 1 to 5 × 10) using a while loop.
+// Expected Output:
+// 5 x 1 = 5
+// 5 x 2 = 10
+// ...
+// 5 x 10 = 50
+// i=5
+// a=1
+// while(i<51 && a<11){
+//     console.log(i*a)
+//     a++
+// }
+
+// Print numbers from 10 to 1 (reverse counting).
+// i=10
+// while(i>0){
+//     console.log(i)
+//     i--
+// }
+
+// 🔁 Task 3: do...while Loop
+
+// Task:
+// Print numbers from 1 to 5 using a do...while loop.
+// Expected Output:
+// 1
+// 2
+// 3
+// 4
+// 5
+// i = 1
+// do {
+//     console.log(i)
+//     i++
+// }
+// while(i<6)
+
+// Print "Hello JavaScript" 5 times.
+// i = 1
+// do {
+//     console.log(i+" Hello JavaScript")
+//     i++
+// }
+// while(i<6)
+
+// ⭐ Bonus Task (Mix Thinking)
+// Using any one loop, find the sum of numbers from 1 to 10.
+// Expected Output:
+// Sum = 55
+// let sum = 0;
+// for (let i = 1; i <= 10; i++) {
+//     sum = sum + i;
+// }
+// console.log("Sum =", sum);
 
 
