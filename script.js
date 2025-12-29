@@ -644,4 +644,158 @@
 // }
 // console.log("Sum =", sum);
 
+// 🔰 LEVEL 1: Variables + Data Conversion
+// Task 1
+// Create a variable:
+// let price = "150";
+// Convert it to a number and:
+// add 50
+// subtract 20
+// let price = "150";
+// price = Number(price);
+// console.log(price + 50);  
+// console.log(price - 20);   
+
+
+// Task 2
+// Create a variable:
+// let isLoggedIn = "true";
+// Convert it into a boolean and print the result.
+// let isLoggedIn = "true";
+// isLoggedIn = Boolean(isLoggedIn);
+// console.log(isLoggedIn);
+
+
+// Task 3
+// Create a number variable:
+// let score = 78;
+// Convert it into a string and print:
+// Your score is: 78
+// let score = 78;
+// score = String(score);
+// console.log("Your score is: " + score);
+
+// 📦 LEVEL 2: Arrays (Basic → Logic)
+// Task 4
+// Create an array of 6 numbers.
+// Using a loop:
+// print all numbers
+// count how many numbers are greater than 50
+// let numbers = [10, 45, 60, 80, 30, 90];
+// let count = 0;
+// for (let i = 0; i < numbers.length; i++) {
+//   console.log(numbers[i]);
+//   if (numbers[i] > 50) {
+//     count++;
+//   }
+// }
+
+// console.log("Greater than 50:", count);
+
+// Task 5
+// Create an array:
+// [3, 6, 9, 12, 15]
+// Using a loop:
+// multiply each value by 2
+// print the result
+// let arr = [3, 6, 9, 12, 15];
+
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i] * 2);
+// }
+
+// Task 6
+// Create an array of ages:
+// [12, 18, 25, 30, 16, 40]
+// Using a loop:
+// print ages 18 or above
+// count how many are below 18
+// 🧱 LEVEL 3: Objects
+// let ages = [12, 18, 25, 30, 16, 40];
+// let below18 = 0;
+
+// for (let i = 0; i < ages.length; i++) {
+//   if (ages[i] >= 18) {
+//     console.log("Adult:", ages[i]);
+//   } else {
+//     below18++;
+//   }
+// }
+
+// console.log("Below 18 count:", below18);
+
+// Task 7
+// Create an object user with:
+// username
+// email
+// isActive
+// Print all properties using a loop.
+// let user = {
+//   username: "nouman",
+//   email: "nouman@gmail.com",
+//   isActive: true
+// };
+
+// for (let key in user) {
+//   console.log(key + ":", user[key]);
+// }
+
+
+// Task 8
+// Create an object mobile with:
+// brand
+// model
+// price
+// If price is greater than 50,000, print:
+// Expensive Phone
+// Otherwise:
+// Affordable Phone
+// let mobile = {
+//   brand: "Samsung",
+//   model: "A51",
+//   price: 55000
+// };
+
+// if (mobile.price > 50000) {
+//   console.log("Expensive Phone");
+// } else {
+//   console.log("Affordable Phone");
+// }
+
+// 🔁 LEVEL 4: Loops + Conditions
+// Task 9
+// Using a loop:
+// print numbers from 1 to 30
+// if number is divisible by 3, print "Fizz"
+// if divisible by 5, print "Buzz"
+// if divisible by both, print "FizzBuzz"
+// for (let i = 1; i <= 30; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log("FizzBuzz");
+//   } else if (i % 3 === 0) {
+//     console.log("Fizz");
+//   } else if (i % 5 === 0) {
+//     console.log("Buzz");
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+// Task 10
+// Create an array:
+// [10, 25, 5, 40, 15]
+// Using a loop:
+// find the smallest number
+// let nums = [10, 25, 5, 40, 15];
+// let smallest = nums[0];
+
+// for (let i = 1; i < nums.length; i++) {
+//   if (nums[i] < smallest) {
+//     smallest = nums[i];
+//   }
+// }
+
+// console.log("Smallest number:", smallest);
+
+
 
