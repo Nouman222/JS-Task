@@ -798,4 +798,173 @@
 // console.log("Smallest number:", smallest);
 
 
+// for of and for in loop
+// Print each number using for...of
+// let numbers = [10, 20, 30, 40, 50];
+// for(num of numbers){
+//     console.log(num)
+// }
+// Find and print the total sum
+// let marks = [60, 70, 80, 90];
+// let total = 0;
+// for (let score of marks) {
+//   total = total + score;
+// }
+// console.log("Total Marks:", total);
+
+
+// 👉 Print key and value
+// let student = {
+//   name: "Nouman",
+//   age: 22,
+//   course: "Web Development"
+// };
+// for (keyval in student ){
+//     console.log(keyval,student[keyval])
+// }
+
+// 👉 Print all numbers using nested for...of
+// let matrix = [
+//   [1, 2, 3],
+//   [4, 5, 6]
+// ];
+// for(let val of matrix){
+//     for(let nval of val){
+//         console.log(nval)
+//     }
+// }
+
+// 🟢 FOR...OF LOOP TASKS (Arrays)
+
+// 🔹 Task 1: Print Values
+// 👉 Print each city
+// let cities = ["Lahore", "Karachi", "Islamabad"];
+// for(let city of cities){
+//     console.log(city)
+// }
+
+// 🔹 Task 2: Count Total
+// 👉 Find total price
+// let prices = [100, 200, 300, 400];
+// let total=0
+// for(let price of prices){
+//     total=total+price
+// }
+// console.log(total)
+
+// 🔹 Task 3: Even Numbers Only
+// 👉 Print only even numbers
+// let nums = [5, 10, 15, 20, 25, 30];
+// for(let num of nums){
+//     if(num %2==0){
+//         console.log(num)
+//     }
+// }
+
+// 🔹 Task 4: Nested Array
+// 👉 Print all numbers
+// let data = [
+//   [2, 4],
+//   [6, 8],
+//   [10, 12]
+// ];
+// for (let item of data){
+//     console.log(item)
+// }
+
+// 🔹 Task 5: Array of Objects
+// 👉 Print:
+// Babar scored 90
+// Rizwan scored 75
+// let players = [
+//   { name: "Babar", score: 90 },
+//   { name: "Rizwan", score: 75 }
+// ];
+// for(let key of players){
+//     console.log(key)
+// }
+
+// 🔵 FOR...IN LOOP TASKS (Objects)
+// 🔹 Task 6: Print Keys & Values
+// 👉 Print key and value
+// let mobile = {
+//   brand: "Samsung",
+//   price: 50000,
+//   color: "Black"
+// };
+// for(let key in mobile){
+//     for(val in key){
+//         let keyval= key,val
+//         console.log(keyval)
+//     }
+// }
+
+// 🔹 Task 7: Count Properties
+// 👉 Count how many properties
+// let car = {
+//   name: "Civic",
+//   model: 2022,
+//   color: "White",
+//   automatic: true
+// };
+// let countP = 0
+// for(let properties in car){
+//     countP = properties
+// }
+// console.log(countP)
+
+
+// 🔹 Task 8: Nested Object
+// 👉 Print all values
+// let employee = {
+//   name: "Nouman",
+//   department: {
+//     name: "IT",
+//     floor: 3
+//   }
+// };
+// for (const key in employee) {
+//     const element = employee[key];
+//     console.log(element)
+// }
+
+// 🔴 CHALLENGE TASK (Mixed 💪)
+// 🔹 Task 9: Object + Array
+// 👉 Output:
+// Web
+// Design
+// AI
+// let school = {
+//   name: "City School",
+//   classes: ["Web", "Design", "AI"]
+// };
+// for(let key in school){
+//     if(key=="classes"){
+//         console.log(school[key])
+//     }
+// }
+
+// 🔹 Task 10: Array + Object
+// 👉 Print total amount
+// let orders = [
+//   { id: 1, amount: 1500 },
+//   { id: 2, amount: 3000 }
+// ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
