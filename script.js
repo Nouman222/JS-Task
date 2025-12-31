@@ -952,6 +952,101 @@
 // ];
 
 
+// ✅ Task 1: Simple Function (Basic)
+
+// Task:
+// Create a function that prints “Hello JavaScript” in the console.
+// Requirements:
+// Function name: sayHello
+// Call the function
+// function sayHello(){
+//     console.log("Hello JavaScript")
+// }
+// sayHello()
+
+// ✅ Task 2: Function with Parameters
+// Task:
+// Create a function that takes two numbers and prints their sum.
+// Example Output:
+// If numbers are 5 and 3 → Output should be 8
+// Requirements:
+// Function name: addNumbers
+// Use parameters
+// function addNumbers(a,b){
+//     console.log(a+b)
+// }
+// addNumbers(5,3)
+
+// ✅ Task 3: Function with Return
+// Task:
+// Create a function that takes a number and returns “Even” or “Odd”.
+// Example:
+// Input: 4 → Output: Even
+// Input: 7 → Output: Odd
+// Hint:
+// Use % (modulus operator)
+// function evenOdd(a){
+//     if(a % 2 === 0){
+//         return "Even";
+//     } else {
+//         return "Odd";
+//     }
+// }
+// console.log(evenOdd(4));
+// console.log(evenOdd(5));
+
+// ✅ Task 4: Function with Array
+// Task:
+// Create a function that takes an array of numbers and returns the total sum.
+// Example Array:
+// [10, 20, 30]
+// Output:
+// 60
+// function addition(arr){
+//     let totalSum = 0;   // inside function
+//     for(let num of arr){
+//         totalSum = totalSum + num;
+//     }
+//     return totalSum;
+// }
+
+// let array = [10, 20, 30];
+// console.log(addition(array));
+
+// ✅ Task 5: Function with Object (Real Life Example)
+// Task:
+// Create a function that takes an object and prints user details.
+// Example Object:
+// {
+//   name: "Nouman",
+//   age: 22,
+//   role: "MERN Developer"
+// }
+// Output:
+// Name: Nouman
+// Age: 22
+// Role: MERN Developer
+// let object={
+//   name: "Nouman",
+//   age: 22,
+//   role: "MERN Developer"
+// }
+// let object = {
+//   name: "Nouman",
+//   age: 22,
+//   role: "MERN Developer"
+// };
+
+// function printObj(obj){
+//     for(let key in obj){
+//         console.log(key + ": " + obj[key]);
+//     }
+// }
+
+// printObj(object);
+
+
+
 
 
 
