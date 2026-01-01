@@ -1068,6 +1068,79 @@
 // console.log(countVowels("Nomi khan"));
 
 
+// 📘 Part 1: Basic Function Tasks
+// Task 1 — Add Two Numbers
+// Use: function, parameters, return
+// Flow / steps:
+// 1.	Define a function with two parameters (a, b).
+// 2.	Inside the function add them (sum = a + b).
+// 3.	Return the result.
+// Example: input (3,5) → output 8.
+
+// function add(a,b){
+//     return a+b
+// }
+// console.log(add(3,5));
+
+
+// Task 2 — Check Even or Odd
+// Use: function, arithmetic operator %, conditional (if/else)
+// Flow / steps:
+// 1.	Create a function taking one number.
+// 2.	Compute num % 2.
+// 3.	If remainder is 0 → return "Even", else "Odd".
+// Example: 7 → "Odd".
+// function checkEvenOrOdd(num) {
+//   if (num % 2 === 0) {
+//     return "Even";
+//   } else {
+//     return "Odd";
+//   }
+// }
+// console.log(checkEvenOrOdd(7)); 
+
+// Task 3 — Celsius → Fahrenheit
+// Use: function, arithmetic
+// Flow / steps:
+// 1.	Function accepts celsius.
+// 2.	Apply formula fahrenheit = celsius * 1.8 + 32.
+// 3.	Return value (optionally round).
+// Example: 0 → 32.
+// function convertToFahrenheit(celsius) {
+//   const fahrenheit = celsius * 1.8 + 32;
+//   return fahrenheit;
+// }
+// console.log(convertToFahrenheit(0)); 
+
+// Task 4 — Return Full Name
+// Use: function, string concatenation
+// Flow / steps:
+// 1.	Function accepts firstName and lastName.
+// 2.	Join them with a space (firstName + " " + lastName).
+// 3.	Return the full string.
+// Example: ("Ali","Khan") → "Ali Khan".
+// function getFullName(firstName, lastName) {
+//   return firstName + " " + lastName;
+// }
+// console.log(getFullName("Ali", "Khan")); 
+
+// Task 5 — Square a Number
+// Use: function, arithmetic (*)
+// Flow / steps:
+// 1.	Function takes num.
+// 2.	Compute num * num.
+// 3.	Return result.
+// Example: 4 → 16.
+// function squareNumber(num) {
+//   return num * num;
+// }
+// console.log(squareNumber(4));
+
+
+
+
+
+
 
 
 
