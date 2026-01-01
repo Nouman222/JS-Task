@@ -1045,6 +1045,31 @@
 
 // printObj(object);
 
+// Task 1: Count Vowels in a String
+// Create a function that:
+// Takes a string
+// Counts how many vowels (a, e, i, o, u) are in it
+// Returns the count
+// 👉 Example:
+// countVowels("javascript") → 3
+
+// function countVowels(str) {
+//   let count = 0;
+//   let vowels = "aeiouAEIOU";
+
+//   for (let i = 0; i < str.length; i++) {
+//     if (vowels.includes(str[i])) {
+//       count++;
+//     }
+//   }
+
+//   return count;
+// }
+// console.log(countVowels("Nomi khan"));
+
+
+
+
 
 
 
