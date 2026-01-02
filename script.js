@@ -1136,6 +1136,23 @@
 // }
 // console.log(squareNumber(4));
 
+// let kgk="2 Nouman 21 BSIT MERNDEVeloper"
+// let cta = kgk.split(" ")
+// console.log(cta)
+
+// let cts = cta.join("|")
+// console.log(cts);
+
+let number=50
+console.log(Number.isFinite(number))
+let number2=5266448
+console.log(Number.isFinite(number2))
+let number3=895575
+console.log(isNaN(number3))
+let number4=895575
+console.log(isNaN(number4))
+
+
 
 
 
