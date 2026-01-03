@@ -1143,14 +1143,142 @@
 // let cts = cta.join("|")
 // console.log(cts);
 
-let number=50
-console.log(Number.isFinite(number))
-let number2=5266448
-console.log(Number.isFinite(number2))
-let number3=895575
-console.log(isNaN(number3))
-let number4=895575
-console.log(isNaN(number4))
+// let number=50
+// console.log(Number.isFinite(number))
+// let number2=5266448
+// console.log(Number.isFinite(number2))
+// let number3=895575
+// console.log(isNaN(number3))
+// let number4=895575
+// console.log(isNaN(number4))
+
+// An employee can login to the company system only if the password is correct.
+// Tasks:
+//  Create a variable:
+// o isPasswordCorrect
+//  Use if / else to:
+
+// // Variable to check password status
+// let isPasswordCorrect = true;
+
+// // If password is correct, login successful
+// if (isPasswordCorrect) {
+//     console.log("Login Successful");
+// } else {
+//     console.log("Incorrect Password");
+// }
+
+
+// =========================================================================
+// An online store approves an order if:
+//  Payment is successful
+// Tasks:
+//  Create variable:
+// o isPaymentDone
+//  Use if / else to:
+// o Approve the order
+// o Or reject the order
+
+// // Variable to check payment status
+// let isPaymentDone = false;
+
+// // If payment is done, approve order
+// if (isPaymentDone) {
+//     console.log("Order Approved");
+// } else {
+//     console.log("Order Rejected");
+// }
+
+// // =========================================================================
+// // A training institute checks student result:
+// //  If marks ≥ 50 → Pass
+// //  Else → Fail
+// // Tasks:
+// //  Create variable:
+// // o marks
+// //  Use if / else to print result.
+
+// // Student marks
+// let marks = 65;
+
+// // If marks are 50 or above, pass
+// if (marks >= 50) {
+//     console.log("Result: Pass");
+// } else {
+//     console.log("Result: Fail");
+// }
+
+// // ===============================================
+// // An employee is marked Present if:
+// //  They arrived on time
+// // Otherwise:
+// //  Mark as Late / Absent
+// // Tasks:
+// //  Create variable:
+// // o isOnTime
+// //  Use if / else.
+// // Employee arrival status
+
+// let isOnTime = true;
+
+// // Check attendance
+// if (isOnTime) {
+//     console.log("Status: Present");
+// } else {
+//     console.log("Status: Late / Absent");
+// }
+// // Sir here late and absent i use in else condition because both are negative status 
+// // so i combined them and yet we not study date or time so here i just use boolean value to check attendance
+
+// // =======================================================
+// // An e-commerce website gives discount if:
+// //  User is a premium member
+// // Tasks:
+// //  Create variable:
+// // o isPremiumUser
+// //  Use if / else to show:
+// // o “Discount Applied”
+// // o Or “No Discount Available”
+
+// // Premium user status that will check 
+// let isPremiumUser = false;
+
+// // sir here it will Check discount eligibility if true it will apply discount if not it will show no discount available
+// if (isPremiumUser) {
+//     console.log("Discount Applied");
+// } else {
+//     console.log("No Discount Available");
+// }
+
+
+// // =======================================================
+// // Employee performance rating system:
+// //  Score ≥ 90 → Excellent
+// //  Score ≥ 70 → Good
+// //  Score ≥ 50 → Average
+// //  Else → Poor
+// // Tasks:
+// //  Create variable:
+// // o performanceScore
+// //  Use if / else if / else.
+
+// // here is Employee performance score
+// let performanceScore = 78;
+
+// // sir Now i apply to Check performance using multiple conditions
+// if (performanceScore >= 90) {
+//     console.log("Performance: Excellent");
+// } 
+// else if (performanceScore >= 70) {
+//     console.log("Performance: Good");
+// } 
+// else if (performanceScore >= 50) {
+//     console.log("Performance: Average");
+// } 
+// else {
+//     console.log("Performance: Poor");
+// }
+
 
 
 
