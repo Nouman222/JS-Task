@@ -1279,6 +1279,95 @@
 //     console.log("Performance: Poor");
 // }
 
+// // =======================================================
+// // A user can access different sections of a website based on their role:
+// //  Admin → Full Access
+// The below task is done using switch case
+
+// // One
+// let role = prompt("Enter your role (admin, user, guest):");
+
+// switch (role) {
+//     case "admin":
+//         alert("Welcome, Admin! You have full access.");
+//         break;
+//     case "user":
+//         alert("Welcome, User! You have limited access.");
+//         break;
+//     case "guest":
+//         alert("Welcome, Guest! You have read-only access.");
+//         break;
+//     default:
+//         alert("Invalid role entered.");
+//         break;
+// }
+// // Two
+// let paymentMethod = prompt("Enter your payment method (credit card, PayPal, bank transfer):");
+
+// switch (paymentMethod) {
+//     case "credit card":
+//         alert("You selected Credit Card. Please enter your card details.");
+//         break;
+//     case "PayPal":
+//         alert("You selected PayPal. You will be redirected to PayPal's website.");
+//         break;
+//     case "bank transfer":
+//         alert("You selected Bank Transfer. Please use the provided bank details.");
+//         break;
+
+//     default:
+//         alert("Invalid payment method entered.");
+//         break;
+// }
+// // Three
+// let orderStatus = prompt("Enter order status (placed / packed / shipped / delivered / cancelled):").toLowerCase();
+
+// switch (orderStatus) {
+//     case "placed":
+//         alert("Your order has been received and is being processed.");
+//         break;
+//     case "packed":
+//         alert("Your order is packed and ready for dispatch.");
+//         break;
+//     case "shipped":
+//         alert("Your order is on its way to you!");
+//         break;
+//     case "delivered":
+//         alert("Success! Your order has been delivered.");
+//         break;
+//     case "cancelled":
+//         alert("This order has been cancelled.");
+//         break;
+//     default:
+//         alert("Invalid input. Please enter a valid order status.");
+// }
+// // Four
+// let dayName = prompt("Enter day name (Monday – Sunday):").toLowerCase();
+
+// switch (dayName) {
+//     case "monday":
+//     case "tuesday":
+//     case "wednesday":
+//     case "thursday":
+//     case "friday":
+//         alert("It is a Working day.");
+//         break;
+//     case "saturday":
+//         alert("It is a Half day.");
+//         break;
+//     case "sunday":
+//         alert("It is a Holiday.");
+//         break;
+//     default:
+        
+//         alert("Invalid input. Please enter a valid day of the week.");
+// }
+
+
+
+
+
+
 
 
 
