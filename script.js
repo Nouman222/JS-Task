@@ -1364,6 +1364,267 @@
 // }
 
 
+// // Task 1: Add Two Numbers
+// // Create a function that adds two numbers and returns the result.
+// // Example:
+// // Input: (3, 5)
+// // Output: 8
+// function addTwoNumbers(num1, num2) {
+//     return num1 + num2;
+// }
+// console.log(addTwoNumbers(3, 5)); // Output: 8
+
+// // Task 2: Check Even or Odd
+// // Create a function that checks if a number is even or odd.
+// // Example:
+// // Input: 4
+// // Output: "Even"
+// function checkEvenOrOdd(number) {
+//     return number % 2 === 0 ? "Even" : "Odd";
+// }
+// console.log(checkEvenOrOdd(4)); // Output: "Even"
+
+// // Task 3: Celsius to Fahrenheit
+// // Convert Celsius temperature into Fahrenheit.
+// // Formula:
+// // F = C * 1.8 + 32
+// // Example:
+// // Input: 0
+// // Output: 32
+// function celsiusToFahrenheit(celsius) {
+//     return celsius * 1.8 + 32;
+// }
+// console.log(celsiusToFahrenheit(0)); // Output: 32
+
+// // Task 4: Return Full Name
+// // Create a function that joins first name and last name.
+// // Example:
+
+// // Input: ("Ali", "Khan")
+// // Output: "Ali Khan"
+// function getFullName(firstName, lastName) {
+//     return firstName + " " + lastName;
+// }
+// console.log(getFullName("Ali", "Khan")); // Output: "Ali Khan"
+// // Task 5: Square a Number
+// // Return the square of a number.
+// // Example:
+// // Input: 4
+// // Output: 16
+// function squareNumber(number) {
+//     return number * number;
+// }
+// console.log(squareNumber(4)); // Output: 16
+
+// // Count how many vowels (a e i o u) are in a string.
+// // Example:
+// // Input: "Hello"
+// // Output: 2
+// function countVowels(str) {
+//     const vowels = 'aeiouAEIOU';
+//     let count = 0;
+//     for (let i = 0; i < str.length; i++) {
+//         if (vowels.includes(str[i])) {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// console.log(countVowels("Hello")); // Output: 2
+
+// // Task 7: Find Maximum of Three Numbers
+// // Find the largest number without using Math.max().
+// // Example:
+// // Input: (3, 9, 5)
+// // Output: 9
+// function findMaximum(num1, num2, num3) {
+//     let max = num1;
+//     if (num2 > max) {
+//         max = num2;
+//     }
+//     if (num3 > max) {
+//         max = num3;
+//     }
+//     return max;
+// }
+// console.log(findMaximum(3, 9, 5)); // Output: 9
+
+// // Task 8: Reverse a String
+// // Reverse any given string.
+// // Example:
+// // Input: "abc"
+// // Output: "cba"
+// function reverseString(str) {
+//     return str.split('').reverse().join('');
+// }
+// console.log(reverseString("abc")); // Output: "cba"
+
+// // Task 9: Palindrome Check
+// // Check whether a word is a palindrome.
+
+// // Example:
+// // Input: "Madam"
+// // Output: true
+// function isPalindrome(word) {
+//     const cleanedWord = word.toLowerCase();
+//     const reversedWord = cleanedWord.split('').reverse().join('');
+//     return cleanedWord === reversedWord;
+// }
+// console.log(isPalindrome("Madam")); // Output: true
+
+// // Task 10: Factorial
+// // Calculate factorial of a number.
+// // Example:
+// // Input: 5
+// // Output: 120
+// function factorial(n) {
+//     if (n === 0 || n === 1) {
+//         return 1;
+//     }
+//     return n * factorial(n - 1);
+// }
+// console.log(factorial(5)); // Output: 120   
+
+// // Task 11: Largest Number in Array
+// // Return the largest number from an array.
+// let array = [3, 5, 7, 2, 8];
+// // Example:
+// // Input: [3, 5, 7, 2, 8]
+// // Output: 8
+// function largestInArray(arr) {
+//     let largest = arr[0];
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] > largest) {
+//             largest = arr[i];
+//         }
+//     }
+//     return largest;
+// }
+// console.log(largestInArray(array)); // Output: 8
+
+// // Task 12: Return Even Numbers Only
+// // Return only even numbers from an array.
+// // Example:
+// // Input: [1,2,3,4]
+// // Output: [2,4]
+// function returnEvenNumbers(arr) {
+//     return arr.filter(num => num % 2 === 0);
+// }
+// console.log(returnEvenNumbers([1, 2, 3, 4])); // Output: [2, 4]
+
+// Task 13: Sum of Array Elements
+// Calculate the sum of all elements in an array.
+// Example:
+// let a = [1, 2, 3, 4];
+// // Input: [1, 2, 3, 4]
+// // Output: 10
+// function sumOfArrayElements(arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//     }
+//     return sum;
+// }
+// console.log(sumOfArrayElements(a)); // Output: 10
+
+// // Task 14: Calculate Discount Price
+// // What you have to do:
+// // Create a function that calculates the final price after discount.
+
+// // How to think (Real Life):
+// // When you go shopping, the shop gives you a discount.
+// // Your function should calculate how much money is left after discount.
+// // Steps:
+// // 1. Take two inputs:
+// // o Original price
+// // o Discount percentage
+// // 2. Calculate discount amount.
+// // 3. Subtract discount from original price.
+// // 4. Return the final price.
+// // Example:
+// // Price = 100
+// // Discount = 20%
+// // Final Price = 80
+// let originalPrice = 100;
+// let discountPercentage = 20;
+// function calculateDiscountPrice(price, discount) {
+//     let discountAmount = (discount / 100) * price;
+//     let finalPrice = price - discountAmount;
+//     return finalPrice;
+// }
+// console.log(calculateDiscountPrice(originalPrice, discountPercentage)); // Output: 80
+
+// // Task 15: Generate 4-Digit OTP
+// // What you have to do:
+// // Create a function that generates a random 4-digit number.
+// // What is OTP?
+// // OTP means One Time Password, used for login and verification.
+// // Rules:
+// //  OTP must be between 1000 and 9999
+// //  Use Math.random()
+// // Example Output:
+// // 4821
+// // (Every time it runs, OTP will be different.)
+// function generateOTP() {
+//     return Math.floor(1000 + Math.random() * 9000);
+// }
+// console.log(generateOTP()); // Output: Random 4-digit number
+
+// // Task 16: Count Words in a Sentence
+// // What you have to do:
+// // Create a function that counts how many words are in a sentence.
+
+// // Steps:
+// // 1. Remove extra spaces from start and end.
+// // 2. Split the sentence into words.
+// // 3. Count the words.
+// // 4. Return the count.
+// // Example:
+// // Input: " Hello world "
+// // Output: 2
+// function countWordsInSentence(sentence) {
+//     return sentence.trim().split(/\s+/).length;
+// }
+// console.log(countWordsInSentence(" Hello world ")); // Output: 2
+
+// // Task 17: Student Grade Calculator
+// // What you have to do:
+// // Create a function that returns the grade based on student marks.
+// // Grade Rules:
+// //  90 or above → A
+// //  75 or above → B
+// //  50 or above → C
+// //  Below 50 → Fail
+// // Real Life Example:
+// // This is how schools calculate student grades.
+// function calculateGrade(marks) {
+//     if (marks >= 90) {
+//         return 'A';
+//     } else if (marks >= 75) {
+//         return 'B';
+//     } else if (marks >= 50) {
+//         return 'C';
+//     } else {
+//         return 'Fail';
+//     }
+// }
+// console.log(calculateGrade(85)); // Output: B
+// console.log(calculateGrade(45)); // Output: Fail
+
+// // Task 18: Voting Eligibility
+// // What you have to do:
+// // Create a function that checks whether a person can vote.
+// // Rule:
+// //  Age 18 or above → Eligible
+// //  Below 18 → Not Eligible
+// // Example:
+// // Input: 17
+// // Output: "Not Eligible"
+// function checkVotingEligibility(age) {
+//     return age >= 18 ? "Eligible" : "Not Eligible";
+// }
+// console.log(checkVotingEligibility(17)); // Output: "Not Eligible"
+// console.log(checkVotingEligibility(20)); // Output: "Eligible"
 
 
 
