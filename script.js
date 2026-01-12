@@ -1626,6 +1626,247 @@
 // console.log(checkVotingEligibility(17)); // Output: "Not Eligible"
 // console.log(checkVotingEligibility(20)); // Output: "Eligible"
 
+// 1. Check if a number is positive or negative. 
+// let number = 4500;
+// if (number >= 1) {
+//     console.log("Positive Number");
+// } else {
+//     console.log("Negative Number");
+// }
+
+// 2. Check if a number is even or odd. 
+// if(number % 2 == 0){
+//     console.log("Even Number");
+// } else{
+//     console.log("Odd Number");
+// }
+
+// 3. Check if age is 18 or above. 
+// age = 22
+// if(age>18){
+//     console.log("Eligible for voting");
+// } else{
+//     console.log("Not Eligible for voting");
+// }
+
+// 4. Write a function that adds two numbers. 
+// function add (a,b){
+//     return a+b
+// }
+// 5. Write a function that returns your name. 
+// function name(firstName,lastName){
+//     return firstName + " " + lastName
+// }
+// 6. Convert minutes into seconds.
+// function convertMinToSec(min){
+//     return min * 60
+// }
+// 7. Create an array of 5 numbers and print them using a loop. 
+// let arr = [10,20,30,40,50]
+// for(let val of arr){
+//     console.log(val)
+// }
+// 8 find the length of array
+// console.log(arr.length)
+// 9. Print the first and last element of an array.
+// console.log(arr[0],arr[4])
+// 10. Create an object student with name and age. 
+// let student = {
+//     name: "Nouman",
+//     age: 22,
+//     course: "Web Development"
+// }
+// 11. Print the student’s name. 
+// for (key in student){
+//     console.log(key,student[key])
+// }
+// 12. Update the student’s age.
+// student.age = 21
+// 13. Write a function that returns "Pass" or "Fail" (marks ≥ 40). 
+// function checkResult(marks) {
+//     if (marks >= 40) {
+//         return "Pass";
+//     } else {
+//         return "Fail";
+//     }
+// }
+
+// 14. Write a function to find the greater of two numbers. 
+// function findGreater(a, b) {
+//     if (a > b) {
+//         return a;
+//     } else {
+//         return b;
+//     }
+// }
+
+// 15. Write a function that checks if a number is divisible by 5. 
+// function isDivisibleByFive(num) {
+//     if (num % 5 === 0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+
+// 16. Find the largest number in an array. 
+// const numbers = [12, 45, 7, 92, 31];
+// let largest = numbers[0];
+
+// for (let i = 1; i < numbers.length; i++) {
+//     if (numbers[i] > largest) {
+//         largest = numbers[i];
+//     }
+// }
+// console.log("Largest:", largest); 
+
+// 17. Calculate the sum of all numbers in an array. 
+// const numberss = [10, 20, 30, 40];
+// let sum = 0;
+
+// for (let i = 0; i < numberss.length; i++) {
+//     sum += numberss[i];
+// }
+// console.log("Sum:", sum); 
+
+// 18. Reverse an array without using reverse(). 
+// const original = [1, 2, 3, 4, 5];
+// const reversed = [];
+
+// for (let i = original.length - 1; i >= 0; i--) {
+//     reversed.push(original[i]);
+// }
+// console.log("Reversed:", reversed); 
+
+// // 19. Count how many even numbers are in an array. 
+// const numbersss = [1, 2, 3, 4, 5, 6, 7, 8];
+// let count = 0;
+
+// for (let i = 0; i < numbersss.length; i++) {
+//   if (numbersss[i] % 2 === 0) {
+//     count++;
+//   }
+// }
+// console.log("Even Count:", count); 
+
+// // 20. Create an object with name, price, and quantity. 
+// const product = {
+//   name: "Laptop",
+//   price: 999.99,
+//   quantity: 2
+// };
+// console.log(product);
+// // 22. Add a new property category to the object.
+// product.category = "Electronics";
+// console.log(product);
+// //  Calculate the total price (price × quantity). 
+// const products = {
+//   name: "Laptop",
+//   price: 999.99,
+//   quantity: 2
+// };
+// const totalPrice = products.price * products.quantity;
+// console.log("Total Price:", totalPrice); // 1999.98
+
+// // 23. Create an array of students objects. 
+// const students = [
+//   { name: "Alice", age: 22, grade: "A" },
+//   { name: "Bob", age: 19, grade: "B" },
+//   { name: "Charlie", age: 24, grade: "C" },
+//   { name: "David", age: 21, grade: "A" }
+// ];
+// console.log(students);
+
+// // 24. Print all student names using a loop. 
+
+// for (let i = 0; i < students.length; i++) {
+//   console.log(students[i].name);
+// }
+// students.forEach(student => {
+//   console.log(student.name);
+// });
+// // 25. Find students whose age is greater than 20.
+// const over20 = [];
+// for (let i = 0; i < students.length; i++) {
+//   if (students[i].age > 20) {
+//     over20.push(students[i].name);
+//   }
+// }
+// console.log("Students over 20:", over20); 
+
+// // 30. Check if a string is a palindrome. 
+// function isPalindrome(str) {
+//     let left = 0;
+//     let right = str.length - 1;
+
+//     while (left < right) {
+//         if (str[left].toLowerCase() !== str[right].toLowerCase()) {
+//             return false; 
+//         }
+//         left++;
+//         right--;
+//     }
+//     return true; 
+// }
+
+// console.log(isPalindrome("Racecar"));
+
+// // 31. Count the number of vowels in a string. 
+// function countVowels(str) {
+//     let count = 0;
+//     let vowels = "aeiouAEIOU";
+
+//     for (let i = 0; i < str.length; i++) {
+       
+//         if (vowels.indexOf(str[i]) !== -1) {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// console.log(countVowels("Hello World")); 
+
+// // 32. Convert a string into an array of words.
+// function stringToWords(str) {
+//     let words = [];
+//     let currentWord = "";
+
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] === " ") {
+//             if (currentWord !== "") {
+//                 words.push(currentWord);
+//                 currentWord = ""; 
+//             }
+//         } else {
+//             currentWord += str[i];
+//         }
+//     }
+  
+//     if (currentWord !== "") words.push(currentWord);
+    
+//     return words;
+// }
+
+// console.log(stringToWords("Learn JS basics")); 
+
+// // 33. Merge two arrays without using concat().
+// function mergeArrays(arr1, arr2) {
+//     let merged = [];
+
+//     for (let i = 0; i < arr1.length; i++) {
+//         merged.push(arr1[i]);
+//     }
+
+//     for (let j = 0; j < arr2.length; j++) {
+//         merged.push(arr2[j]);
+//     }
+
+//     return merged;
+// }
+
+// console.log(mergeArrays([1, 2], [3, 4]));
+
 
 
 
